@@ -85,7 +85,7 @@ export class RegistroPage implements OnInit {
 
       usuario.nome = this.formRegistro.value.nome;
       usuario.cpf = this.formRegistro.value.cpf;
-      usuario.dataNascimento = new Date(this.formRegistro.value.dataNascimento);
+      usuario.dataNascimento = new Date(this.formRegistro.value.data_de_nascimento);
       usuario.genero = this.formRegistro.value.genero;
       usuario.celular = this.formRegistro.value.celular;
       usuario.email = this.formRegistro.value.email;
